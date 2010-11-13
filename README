@@ -1,0 +1,33 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3321
+
+The TopCoder Arena is a Java applet providing access to free programming
+challenges and competitions.  The applet contains a built-in editor for
+solving the algorithm problems, but coding in Vim is much easier.  This is
+a plugin for the arena providing support for using Vim as your editor.  You
+can learn about TopCoder at their site: http://www.topcoder.com/tc
+
+Some features of this plugin:
+
+- Use Vim to edit your TC Arena problems.
+- Keeps track of your code files locally so you'll always have a copy.
+- Works with any language supported by TC.
+- Downloads and stores a copy of the problem statement with your code for
+    off-line viewing.
+- Support for templates (default templates provided only for C++ and Java).
+- Test-case "drivers" can be generated locally with the example test-case
+    data (currently C++ only).
+
+Requirements:
+
+You need to have client/server support compiled into Vim.  This is usually
+the case.  You also need to have a recent Java runtime implementation in
+order to run the arena applet and editor plugin.
+
+You can also use Vim's :make command to build the C++ test cases, but
+of course you'll need the make utility and a C++ compiler.
+
+A more detailed description of this plugin is available on the project page:
+http://www.dogcows.com/vimcoder
+
+This software is not endorsed by TopCoder and is provided as-is.
+
