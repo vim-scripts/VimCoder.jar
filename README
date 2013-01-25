@@ -28,7 +28,7 @@ of course you'll need the make utility and a C++ compiler.
 
 A more detailed description of this plugin is available on the project page,
 along with the source code:
-http://www.brokenzipper.com/trac/wiki/VimCoder
+http://github.com/chazmcgarvey/vimcoder
 
 This software is not endorsed by TopCoder and is provided as-is.
 
